@@ -143,7 +143,7 @@ export default class Task {
     this.placeholder = null;
 
     document.documentElement.removeEventListener("mouseup", this.onMouseUp);
-    document.documentElement.removeEventListener("mouseover", this.onMouseMove);
+    document.documentElement.removeEventListener("mousemove", this.onMouseMove);
   }
 
   onAddCardClick(e) {
